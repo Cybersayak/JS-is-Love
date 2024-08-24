@@ -1,7 +1,7 @@
 let myhomename= "Sayak"
 
 let asname=myhomename
-asname = "Sayak"
+asname = "Sakku Bhaiya"
 
 
 console.log(asname);
