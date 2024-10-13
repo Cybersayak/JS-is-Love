@@ -30,9 +30,33 @@ const obj2  = {
     4: "j"
 }
 const obj3 = {obj1 , obj2}
-const obj4 = Object.assign({} , obj1 , obj2)// optional parameter {} used 
+const obj4 = Object.assign({} , obj1 , obj2)// optional parameter {} used as Target and other objects as source 
+const obj5 = {...obj1,...obj2} // Spread 
 console.log(obj3);
-console.log(obj4)
+console.log(obj4);
+console.log(obj5);
+
+const manyuser = [
+    {
+        id : 1,
+        name:"sayak"
+    },
+    {
+        id : 2,
+        name:"sayak"
+    },
+    {
+        id : 3,
+        name:"sayak"
+    },
+    {
+        id : 4,
+        name:"sayak"
+    },
+
+]
+
+console.log(manyuser[1].name);
 
 
 
