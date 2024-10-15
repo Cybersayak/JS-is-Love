@@ -1,9 +1,4 @@
 
-const newuser = new Object()
-
-newuser.id = "14789"
-newuser.name = "Sam"
-newuser.isLogged = false
 
 // Example of Objects within Objects
 const user =  {
@@ -58,5 +53,13 @@ const manyuser = [
 
 console.log(manyuser[1].name);
 
+const newuser = new Object()
 
+newuser.id = "14789"
+newuser.name = "Sam"
+newuser.isLogged = false
+
+console.log(Object.keys(newuser));
+console.log(Object.values(newuser));
+console.log(Object.entries(newuser));
 
