@@ -63,3 +63,25 @@ console.log(Object.keys(newuser));
 console.log(Object.values(newuser));
 console.log(Object.entries(newuser));
 
+console.log(newuser.hasOwnProperty('isLogged'));
+
+
+// OBJECT DESTRUCTURE 
+// So, how do we extract values from more than one object property? 
+// Simple – we keep adding the object keys inside the {} with commas separating them. 
+// In the example below, we destructure both the coursename , 
+// price and course instructor properties from the course object.
+const course = {
+    coursename : "ThreeJs",
+    price : "499",
+    courseTrainer : "Shewta"
+}
+
+const {coursename ,price ,courseTrainer:TR} = course
+
+console.log(coursename ,price ,TR);
+
+
+
+
+
