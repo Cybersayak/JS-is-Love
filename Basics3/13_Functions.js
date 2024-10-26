@@ -42,3 +42,18 @@ function loginUserMessg(username) {
 // console.log(loginUserMessg("Sayak"));
 console.log(loginUserMessg());
 
+// Functions with Arrray
+
+function calculateCart(num1){     
+    return num1 
+  } 
+  console.log( calculateCart(20,30)); // Only reads first input 
+  
+function calculateCartPrice(...num1){     // REST OPERATOR 
+  return num1 
+} 
+console.log( calculateCartPrice(20,30,50));
+
+
+// Function with 
+
