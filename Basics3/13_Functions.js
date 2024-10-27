@@ -42,7 +42,7 @@ function loginUserMessg(username) {
 // console.log(loginUserMessg("Sayak"));
 console.log(loginUserMessg());
 
-// Functions with Arrray
+// Functions with Arrray Inputs 
 
 function calculateCart(num1){     
     return num1 
@@ -54,6 +54,49 @@ function calculateCartPrice(...num1){     // REST OPERATOR
 } 
 console.log( calculateCartPrice(20,30,50));
 
+// Function with Objects
+// Example 1
+const user = {
+    username : "Sayak",
+    price : 99
+}
+ function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+ }
+ handleObject(user)
 
-// Function with 
+ // Example 2 
+ const usernew = {
+    // Empty Object 
+}
+ function handleObjects(newobject){
+    console.log(`Username is ${newobject.username} and price is ${newobject.price}`);
+ }
+ handleObjects({
+    username : "Soumallo",
+    price : 199
+ })
 
+
+
+// CONCEPT with ARRAY 
+// Pre Defined Value Array 
+ const newArray = [20,30,40,50]
+
+ function returnSecondvalue(getArray){
+    return getArray[1]
+ }
+console.log(returnSecondvalue(newArray));
+
+
+
+//2 Empty Array 
+
+const onemoreArray = [] // Empty array
+
+ function returnvalue(getArray){
+    return getArray[2]
+ }
+
+console.log(returnSecondvalue([25,35,45]));
