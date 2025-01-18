@@ -49,7 +49,6 @@ console.log(add(3,4));
 
 //const minus= (num1 ,num2) => num1 - num2
 const minus= (num1 ,num2) => (num1 - num2)
-
 console.log(minus(4,3));
 
 
