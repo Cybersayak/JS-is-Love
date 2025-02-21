@@ -10,4 +10,4 @@ This JavaScript repository is build on the concept of this repository of JS and 
 
 [Javascript MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-[You Dont Know JavaScript](https://ydkjs-exercises.com/)
+[You Dont Know JavaScript](https://ydkjs-exercises.com/)  
